@@ -1,36 +1,119 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Cuidar em Casa
 
-## Getting Started
+Landing page institucional desenvolvida para a Cuidar em Casa, empresa especializada em apoio e cuidados domiciliares para idosos.
 
-First, run the development server:
+O projeto foi desenvolvido pela **INOVAR IT**, com foco em apresentar os serviços da empresa de forma clara, acolhedora e profissional, além de facilitar o contato com potenciais clientes.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+> Este projeto foi desenvolvido em contexto profissional e está publicado neste perfil pessoal com autorização da empresa para fins de portfólio.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🌐 Projeto
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Site em produção:**  
+https://cuidaremcasa.com
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📌 Sobre o projeto
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+O objetivo do projeto foi desenvolver uma presença digital moderna e responsiva para a Cuidar em Casa.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+A página foi construída como uma landing page institucional, organizada em seções para apresentar a empresa, seus serviços, o funcionamento do atendimento e os canais de contato.
 
-## Deploy on Vercel
+O projeto também conta com integração de formulário de contato e recursos de comunicação direta, proporcionando uma experiência simples para usuários em diferentes dispositivos.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ✨ Funcionalidades
+
+- 📱 Design responsivo para desktop, tablet e dispositivos móveis
+- 🧭 Navegação por seções com rolagem suave
+- 🎨 Interface moderna e acessível
+- ✨ Animações e transições durante a navegação
+- 📋 Formulário de contato
+- 📧 Integração para envio de mensagens
+- 💬 Integração com WhatsApp
+- 🔍 Configurações básicas de SEO
+- ⚡ Otimização utilizando recursos do Next.js
+- 🚀 Deploy e hospedagem em produção
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+### Front-end
+
+- **Next.js** — framework utilizado para estrutura e desenvolvimento da aplicação
+- **React** — construção da interface através de componentes reutilizáveis
+- **TypeScript** — tipagem e maior segurança durante o desenvolvimento
+- **Tailwind CSS** — estilização e construção do layout responsivo
+- **Framer Motion** — animações e transições da interface
+
+### Outros recursos
+
+- **Node.js / npm** — gerenciamento do projeto e dependências
+- **Git** — controle de versão
+- **GitHub** — versionamento e armazenamento do código
+- **Vercel** — deploy e hospedagem da aplicação
+
+---
+
+## 📂 Estrutura do projeto
+
+```text
+cuidar-em-casa/
+│
+├── app/
+│   ├── api/
+│   │   └── contato/
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+│
+├── components/
+│   ├── layout/
+│   ├── sections/
+│   ├── ui/
+│   └── smooth-scroll.tsx
+│
+├── public/
+│   └── images/
+│
+├── package.json
+├── next.config.ts
+├── tsconfig.json
+└── README.md
+
+🎯 Principais objetivos técnicos
+
+Durante o desenvolvimento, alguns dos principais objetivos foram:
+
+Criar uma arquitetura baseada em componentes reutilizáveis
+Desenvolver uma interface totalmente responsiva
+Trabalhar com TypeScript em uma aplicação Next.js
+Implementar animações de forma integrada à interface
+Criar uma experiência de navegação fluida
+Desenvolver uma API para o formulário de contato
+Preparar a aplicação para ambiente de produção
+Realizar o deploy e configuração do domínio
+
+🚀 Deploy
+
+A aplicação está hospedada em produção utilizando a Vercel.
+
+Acesse o projeto:
+
+https://cuidaremcasa.com
+
+👩‍💻 Desenvolvimento
+
+Projeto desenvolvido por Ana Majo no contexto profissional da INOVAR IT para a Cuidar em Casa.
+
+O projeto está disponível neste repositório pessoal como parte do meu portfólio profissional, com autorização da empresa.
+
+📄 Licença
+
+Este projeto foi desenvolvido para uso profissional da Cuidar em Casa e da INOVAR IT.
+
+O código disponibilizado neste repositório tem finalidade de demonstração e portfólio e não deve ser reutilizado comercialmente sem autorização.
