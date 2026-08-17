@@ -57,35 +57,7 @@ O projeto também conta com integração de formulário de contato e recursos de
 - **GitHub** — versionamento e armazenamento do código
 - **Vercel** — deploy e hospedagem da aplicação
 
----
-
-## 📂 Estrutura do projeto
-
-```text
-cuidar-em-casa/
-│
-├── app/
-│   ├── api/
-│   │   └── contato/
-│   ├── globals.css
-│   ├── layout.tsx
-│   └── page.tsx
-│
-├── components/
-│   ├── layout/
-│   ├── sections/
-│   ├── ui/
-│   └── smooth-scroll.tsx
-│
-├── public/
-│   └── images/
-│
-├── package.json
-├── next.config.ts
-├── tsconfig.json
-└── README.md
-
-🎯 Principais objetivos técnicos
+##🎯 Principais objetivos técnicos
 
 Durante o desenvolvimento, alguns dos principais objetivos foram:
 
@@ -117,3 +89,33 @@ O projeto está disponível neste repositório pessoal como parte do meu portfó
 Este projeto foi desenvolvido para uso profissional da Cuidar em Casa e da INOVAR IT.
 
 O código disponibilizado neste repositório tem finalidade de demonstração e portfólio e não deve ser reutilizado comercialmente sem autorização.
+
+---
+
+## 📂 Estrutura do projeto
+
+```text
+cuidar-em-casa/
+│
+├── app/
+│   ├── api/
+│   │   └── contato/
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+│
+├── components/
+│   ├── layout/
+│   ├── sections/
+│   ├── ui/
+│   └── smooth-scroll.tsx
+│
+├── public/
+│   └── images/
+│
+├── package.json
+├── next.config.ts
+├── tsconfig.json
+└── README.md
+
+
